@@ -16,7 +16,6 @@ DevelWare - это мощная и интуитивно понятная IDE, о
 - **Discord**: [Присоединиться к Discord сообществу](https://discord.gg/2ECUpEfTrd)
 - **Официальный сайт**: [Посетите наш сайт](https://sites.x10.mx/index.html)
 - **Поддержка Проекта**: [Донат](https://www.donationalerts.com/r/meigostudios)
-- **GitHub**: [Репозиторий GitHub]([https://github.com/DevelWare](https://github.com/TrueS1gma/DevelWare))
 
 ### Установка
 DevelWare не требует сборки приложения благодаря использованию Java. Вы можете скачать версию из релизов или напрямую из ветки репозитория на GitHub.
