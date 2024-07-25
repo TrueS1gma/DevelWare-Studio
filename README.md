@@ -38,14 +38,7 @@ DevelWare не требует сборки приложения благодар
 
 ## 🤝 **Присоединяйтесь к нашему сообществу:**
 
-[![Discord](https://img.shields.io/badge/Discord-7289DA?style=for-the-badge&logo=discord&logoColor=white)](https://discord.gg/2ECUpEfTrd)
-[![Website](https://img.shields.io/badge/Website-4285F4?style=for-the-badge&logo=google-chrome&logoColor=white)](https://sites.x10.mx/index.html)
-
----
-
-## 💖 **Поддержите проект**
-
-Ваши пожертвования помогают нам развивать и улучшать DevelWare. Поддержите нас на [![Donationalerts](https://img.shields.io/badge/Donationalerts-F39C12?style=for-the-badge&logo=buy-me-a-coffee&logoColor=white)](https://www.donationalerts.com/r/meigostudios).
+[![Discord](https://img.shields.io/badge/Discord-7289DA?style=for-the-badge&logo=discord&logoColor=white)](https://discord.gg/ErBRtcun7W)
 
 ---
 
