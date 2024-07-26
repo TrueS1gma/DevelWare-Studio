@@ -1,4 +1,5 @@
 .syntax-text-area {
+    -fx-font-family: "Arial";
     -fx-background-color: white;
     -fx-background-fill: #fdffe6;
     -fx-cursor: text;

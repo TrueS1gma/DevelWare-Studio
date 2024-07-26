@@ -1,69 +1,61 @@
-/* Подключение кастомного шрифта */
-@font-face {
-    font-family: 'Mono';
-    src: url('fonts/JetBrainsMono-Bold.ttf') format('truetype');
-}
-
 .syntax-text-area {
-    -fx-background-color: #1e1e1e; /* Глубокий темный фон */
-    -fx-background-fill: #2c2c2c; /* Мягкий фон для текста */
+    -fx-font-family: "Arial";
+    -fx-background-color: #202020;
+    -fx-background-fill: #404E51;
     -fx-cursor: text;
-    -fx-font-family: 'Mono', monospace; /* Подключение кастомного шрифта */
-    -fx-font-size: 14px; /* Размер шрифта для лучшей читаемости */
 }
 
 .syntax-text-area .paragraph-box:has-caret {
-    -fx-background-color: #252526; /* Цвет фона при наличии каретки */
+    -fx-background-color: #2b3436;
 }
 
 .syntax-text-area .text {
-    -fx-fill: #d4d4d4; /* Светлый цвет текста */
+    -fx-fill: #E0E2E4;
 }
 
 .syntax-text-area .gutter {
-    -fx-border-color: #4e4e4e; /* Темно-серый цвет границы */
-    -fx-background-color: #2d2d2d; /* Темный фон для области номеров строк */
+    -fx-border-color: #939393;
+    -fx-background-color: #545454;
     -fx-border-width: 0 1px 0 0;
-    -fx-padding: 0 5 0 5; /* Увеличенные отступы для лучшего восприятия */
+    -fx-padding: 0 3 0 3;
 }
 
 .syntax-text-area .caret {
-    -fx-stroke: #ffffff; /* Яркий белый цвет каретки */
+    -fx-stroke: white;
 }
 
 .syntax-text-area .text.semicolon {
-    -fx-fill: #9a9a9a; /* Светлый цвет для точек с запятой */
 }
 
 .syntax-text-area .text.control, .syntax-text-area .text.operator {
-    -fx-fill: #9cdcfe; /* Яркий голубой цвет для управляющих символов и операторов */
+    -fx-fill: #22C1AE;
 }
 
 .syntax-text-area .text.comment {
-    -fx-fill: #6a9955; /* Зеленый цвет для комментариев */
-    -fx-font-style: italic; /* Курсив для комментариев */
+    -fx-fill: #6c6c6c;
+    -fx-font-style: italic;
 }
 
 .syntax-text-area .text.selector {
-    -fx-fill: #ce9178; /* Теплый оранжево-коричневый цвет для селекторов */
+    -fx-fill: #cda869;
 }
 
 .syntax-text-area .text.keyword {
-    -fx-fill: #569cd6; /* Синий цвет для ключевых слов */
+    -fx-fill: #cda869;
 }
 
 .syntax-text-area .text.string {
-    -fx-fill: #ce9178; /* Тот же теплый цвет для строк */
+    -fx-fill: #afc9a0;
 }
 
 .syntax-text-area .text.number {
-    -fx-fill: #b5cea8; /* Светло-зеленый цвет для чисел */
+    -fx-fill: #54b0ff;
 }
 
 .syntax-text-area .text.variable {
-    -fx-fill: #9cdcfe; /* Тот же цвет для переменных */
+    -fx-fill: #ae9fbf;
 }
 
 .syntax-text-area .text.label {
-    -fx-fill: #dcdcaa; /* Светлый желтый цвет для меток */
+    -fx-fill: #E6E1DC;
 }
