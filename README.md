@@ -28,9 +28,14 @@
 | **ОС**                 | Windows 7 или выше                                                                                              | Windows 10 или выше                                                                                          |
 ---
 
+Конечно! Вот обновленный текст:
+
+---
+
 ## 🤝 **Присоединяйтесь к нашему сообществу:**
 
-[![Discord](https://img.shields.io/badge/Discord-7289DA?style=for-the-badge&logo=discord&logoColor=white)](https://discord.gg/ErBRtcun7W)
+[![Discord](https://img.shields.io/badge/Discord-7289DA?style=for-the-badge&logo=discord&logoColor=white)](https://discord.gg/ErBRtcun7W)  
+[![Telegram](https://img.shields.io/badge/Telegram-26A5E4?style=for-the-badge&logo=telegram&logoColor=white)](https://t.me/+Q8yluasBBQFhN2My)
 
 ---
 
