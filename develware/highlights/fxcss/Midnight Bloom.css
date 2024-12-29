@@ -1,0 +1,54 @@
+.syntax-text-area {
+    -fx-background-color: #1D1F2F;
+    -fx-background-fill: #2A2E3D;
+    -fx-cursor: text;
+    -fx-font-family: 'Fira Code', monospace;
+}
+
+.syntax-text-area .text {
+    -fx-fill: #D0D0D0;
+}
+
+.syntax-text-area .gutter {
+    -fx-border-color: #2A2E3D;
+    -fx-background-color: #1D1F2F;
+    -fx-border-width: 0 1px 0 0;
+    -fx-padding: 0 3 0 3;
+}
+
+.syntax-text-area .caret {
+    -fx-stroke: #D0D0D0;
+}
+
+.syntax-text-area .text.control, .syntax-text-area .text.operator {
+    -fx-fill: #FF8C00;
+}
+
+.syntax-text-area .text.comment {
+    -fx-fill: #7D8B99;
+    -fx-font-style: italic;
+}
+
+.syntax-text-area .text.selector {
+    -fx-fill: #4EC9B0;
+}
+
+.syntax-text-area .text.keyword {
+    -fx-fill: #C586C0;
+}
+
+.syntax-text-area .text.string {
+    -fx-fill: #D69D85;
+}
+
+.syntax-text-area .text.number {
+    -fx-fill: #D69D85;
+}
+
+.syntax-text-area .text.variable {
+    -fx-fill: #D69D85;
+}
+
+.syntax-text-area .text.label {
+    -fx-fill: #D0D0D0;
+}

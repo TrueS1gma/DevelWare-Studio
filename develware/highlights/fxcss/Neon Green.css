@@ -1,0 +1,54 @@
+.syntax-text-area {
+    -fx-background-color: #121212;
+    -fx-background-fill: #1E1E1E;
+    -fx-cursor: text;
+    -fx-font-family: 'Source Code Pro', monospace;
+}
+
+.syntax-text-area .text {
+    -fx-fill: #E0E0E0;
+}
+
+.syntax-text-area .gutter {
+    -fx-border-color: #1E1E1E;
+    -fx-background-color: #121212;
+    -fx-border-width: 0 1px 0 0;
+    -fx-padding: 0 3 0 3;
+}
+
+.syntax-text-area .caret {
+    -fx-stroke: #E0E0E0;
+}
+
+.syntax-text-area .text.control, .syntax-text-area .text.operator {
+    -fx-fill: #C0FF00;
+}
+
+.syntax-text-area .text.comment {
+    -fx-fill: #7F8C8D;
+    -fx-font-style: italic;
+}
+
+.syntax-text-area .text.selector {
+    -fx-fill: #D6A0FF;
+}
+
+.syntax-text-area .text.keyword {
+    -fx-fill: #76E1FC;
+}
+
+.syntax-text-area .text.string {
+    -fx-fill: #F5F5A0;
+}
+
+.syntax-text-area .text.number {
+    -fx-fill: #D6A0FF;
+}
+
+.syntax-text-area .text.variable {
+    -fx-fill: #5FFF5F;
+}
+
+.syntax-text-area .text.label {
+    -fx-fill: #E0E0E0;
+}

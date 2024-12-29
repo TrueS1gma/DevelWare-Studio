@@ -1,0 +1,60 @@
+.syntax-text-area {
+    -fx-background-color: #2A2A2A;
+    -fx-font-family: "Press Start 2P";
+    -fx-cursor: text;
+}
+
+.syntax-text-area .paragraph-box:has-caret {
+    -fx-background-color: #333333;
+}
+
+.syntax-text-area .text {
+    -fx-fill: #B8B8B8;
+}
+
+.syntax-text-area .gutter {
+    -fx-border-color: #4A4A4A;
+    -fx-background-color: #2A2A2A;
+    -fx-border-width: 0 1px 0 0;
+    -fx-padding: 0 3 0 3;
+}
+
+.syntax-text-area .caret {
+    -fx-stroke: #FFFFFF;
+}
+
+.syntax-text-area .text.semicolon {
+}
+
+.syntax-text-area .text.control, .syntax-text-area .text.operator {
+    -fx-fill: #FF5555;
+}
+
+.syntax-text-area .text.comment {
+    -fx-fill: #6A6A6A;
+    -fx-font-style: italic;
+}
+
+.syntax-text-area .text.selector {
+    -fx-fill: #FFAA00;
+}
+
+.syntax-text-area .text.keyword {
+    -fx-fill: #55FFFF;
+}
+
+.syntax-text-area .text.string {
+    -fx-fill: #55FF55;
+}
+
+.syntax-text-area .text.number {
+    -fx-fill: #FF55FF;
+}
+
+.syntax-text-area .text.variable {
+    -fx-fill: #FFFF55;
+}
+
+.syntax-text-area .text.label {
+    -fx-fill: #FFFFFF;
+}
