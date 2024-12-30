@@ -1,0 +1,58 @@
+/* Cobalt2 Theme */
+.syntax-text-area {
+    -fx-background-color: #193549;
+    -fx-background-fill: #102A44;
+    -fx-cursor: text;
+    -fx-font-family: 'Roboto Mono', monospace;
+}
+
+.syntax-text-area .text {
+    -fx-fill: #FFFFFF;
+}
+
+.syntax-text-area .gutter {
+    -fx-border-color: #102A44;
+    -fx-background-color: #193549;
+    -fx-border-width: 0 1px 0 0;
+    -fx-padding: 0 3 0 3;
+}
+
+.syntax-text-area .caret {
+    -fx-stroke: #FFFFFF;
+}
+
+.syntax-text-area .text.semicolon {
+}
+
+.syntax-text-area .text.control, .syntax-text-area .text.operator {
+    -fx-fill: #FF9D00;
+}
+
+.syntax-text-area .text.comment {
+    -fx-fill: #0088FF;
+    -fx-font-style: italic;
+}
+
+.syntax-text-area .text.selector {
+    -fx-fill: #CCCCCC;
+}
+
+.syntax-text-area .text.keyword {
+    -fx-fill: #FF9D00;
+}
+
+.syntax-text-area .text.string {
+    -fx-fill: #A5FF90;
+}
+
+.syntax-text-area .text.number {
+    -fx-fill: #FF628C;
+}
+
+.syntax-text-area .text.variable {
+    -fx-fill: #FFEE80;
+}
+
+.syntax-text-area .text.label {
+    -fx-fill: #FFFFFF;
+}

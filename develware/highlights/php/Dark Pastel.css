@@ -1,0 +1,54 @@
+.syntax-text-area {
+    -fx-background-color: #2E2E2E;
+    -fx-background-fill: #3B3B3B;
+    -fx-cursor: text;
+    -fx-font-family: 'Hack', monospace;
+}
+
+.syntax-text-area .text {
+    -fx-fill: #F8F8F2;
+}
+
+.syntax-text-area .gutter {
+    -fx-border-color: #3B3B3B;
+    -fx-background-color: #2E2E2E;
+    -fx-border-width: 0 1px 0 0;
+    -fx-padding: 0 3 0 3;
+}
+
+.syntax-text-area .caret {
+    -fx-stroke: #F8F8F2;
+}
+
+.syntax-text-area .text.control, .syntax-text-area .text.operator {
+    -fx-fill: #FF79C6;
+}
+
+.syntax-text-area .text.comment {
+    -fx-fill: #6272A4;
+    -fx-font-style: italic;
+}
+
+.syntax-text-area .text.selector {
+    -fx-fill: #8BE9FD;
+}
+
+.syntax-text-area .text.keyword {
+    -fx-fill: #FF5555;
+}
+
+.syntax-text-area .text.string {
+    -fx-fill: #50FA7B;
+}
+
+.syntax-text-area .text.number {
+    -fx-fill: #BD93F9;
+}
+
+.syntax-text-area .text.variable {
+    -fx-fill: #F1FA8C;
+}
+
+.syntax-text-area .text.label {
+    -fx-fill: #F8F8F2;
+}

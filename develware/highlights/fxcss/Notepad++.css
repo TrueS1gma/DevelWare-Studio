@@ -1,0 +1,55 @@
+.syntax-text-area {
+    -fx-background-color: #FEFCF5; 
+    -fx-cursor: text;
+}
+
+.syntax-text-area .paragraph-box:has-caret {
+    -fx-background-color: #F5F5F5;
+}
+
+.syntax-text-area .text {
+    -fx-fill: #000000;
+}
+
+.syntax-text-area .gutter .lineno {
+    -fx-text-fill: #A0A0A0;
+    -fx-fill: #A0A0A0;
+    -fx-background-fill: #FEFCF5; 
+}
+
+.syntax-text-area .gutter {
+    -fx-background-color: #FEFCF5; 
+    -fx-border-color: #E0E0E0;
+    -fx-border-width: 0 1px 0 0;
+    -fx-padding: 0 3 0 3;
+}
+
+.syntax-text-area .caret {
+    -fx-stroke: #000000;
+}
+
+.syntax-text-area .text.php-tag {
+    -fx-fill: #FF4500; 
+}
+
+.syntax-text-area .text.keyword {
+    -fx-fill: #0000FF;
+    -fx-font-weight: bold;
+}
+
+.syntax-text-area .text.variable {
+    -fx-fill: #000000;
+}
+
+.syntax-text-area .text.comment {
+    -fx-fill: #008000; 
+    -fx-font-style: italic;
+}
+
+.syntax-text-area .text.string {
+    -fx-fill: #FF0000; 
+}
+
+.syntax-text-area .text.number {
+    -fx-fill: #FF4500; 
+}
